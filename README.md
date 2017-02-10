@@ -1,2 +1,4 @@
 # react-demo
-react
+npm install
+
+npm run watch

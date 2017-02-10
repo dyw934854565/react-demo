@@ -4,6 +4,7 @@ module.exports = {
 		index: './src/index'
 	},
 	output: {
+		path: 'dist/',
 		filename: '[name].js'
 	},
 	resolve: {
