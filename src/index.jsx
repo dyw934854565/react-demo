@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom"
 import React from "react"
 import Clock from "./component/clock"
+import SayHello from "./component/hello"
 import Immutable from "immutable"
 
 var map2 = Immutable.Map({"23": 2});
@@ -13,6 +14,8 @@ console.log(map2 === map1);
 function App() {
   return (
     <div>
+      <SayHello name={"喵喵"} />
+      <SayHello />
       <Clock />
       <Clock />
       <Clock />
